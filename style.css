@@ -83,14 +83,7 @@ img {
   }
 
   /* BLOCCO LEZIONI */
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: 50%;
-    float: left;
-  }
-
   #lezioni img, #steps img {
-    height: 200px;
     width: 100%;
     object-fit: contain;
   }
@@ -103,7 +96,6 @@ img {
     width: 20%;
     height: 20%;
   }
-  
 }
 /* ----- /0-1024px ----- */
 /* ----- 0-420px ----- */
@@ -123,11 +115,6 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-
-  img {
-    width: 50%;
-    height: 50%;
   }
 
   .row div {
@@ -171,5 +158,5 @@ img {
     padding: 0 14px;
   }  
 }
-/* ----- /0-420px ----- */
+/* ----- 0-420px ----- */
 /* ---------- /MEDIA QUERIES ---------- */
